@@ -16,7 +16,7 @@ if(!db)
 else
     console.log("Db connected successfully")
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 27017;
 
 app.get('/', (req, res) => res.send('Hello World with Express'));
 
